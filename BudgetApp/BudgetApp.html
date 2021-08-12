@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Budget</title>
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/tab-bar-line-filled-blue/154/Bar_dollar_money_tab-512.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3b3c3e8036.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container bg-container">
+        <h1 class="heading p-5 text-center">Budget App</h1>
+        <div class="row">
+            <div class="card col-10 col-lg-11 d-flex flex-row justify-content-around m-auto">
+                <div class="item text-center d-flex flex-column justify-content-between">
+                    <h1 class="card-heading">Budget</h1>
+                    <img class="image" src="https://assets.ccbp.in/frontend/dynamic-webapps/budget-img.png" />
+                    <p id="budgetAmount" class="card-value">0</p>
+                </div>
+                <div class="item text-center d-flex flex-column justify-content-between">
+                    <h1 class="card-heading">Expenses</h1>
+                    <img class="image" src="https://assets.ccbp.in/frontend/dynamic-webapps/expenses-img.png" />
+                    <p id="totalExpensesAmount" class="card-value">0</p>
+                </div>
+                <div class="item text-center d-flex flex-column justify-content-between">
+                    <h1 class="card-heading">Balance</h1>
+                    <img class="image" src="https://assets.ccbp.in/frontend/dynamic-webapps/balance-img.png" />
+                    <p id="balanceAmount" class="card-value">0</p>
+                </div>
+            </div>
+            <div class="col-12 col col-lg-8 d-lg-flex">
+                <div class="col-12 col-lg-7">
+                    <div class="col-11  card mt-3 ml-auto mr-auto">
+                        <p class="budget-para">Please enter the budget</p>
+                        <input id="budgetInput" class="budget-input" type="text" placeholder="In Rupees" />
+                        <p id="budgetInputErrMsg" class="erroMsg"></p>
+                        <button id="setBudgetBtn" class="btn btn-primary budget-btn mt-4">Set Budget</button>
+                    </div>
+                    <div class="col-11 card mt-3 ml-auto mr-auto">
+                        <p class="budget-para">Please enter the expense title</p>
+                        <input id="expenseTitleInput" class="budget-input" type="text" placeholder="Title" />
+                        <p id="expenseTitleInputErrMsg" class="erroMsg"></p>
+                        <p class="budget-para mt-3">Please enter the expense amount</p>
+                        <input id="expenseAmountInput" class="budget-input" type="text" placeholder="In Rupees" />
+                        <p id="expenseAmountInputErrMsg" class="erroMsg"></p>
+                        <button id="addExpenseBtn" class="btn btn-secondary budget-btn mt-4">Add Expense</button>
+                    </div>
+                </div>
+                <div class="col-11 col-lg-11 card mt-3 ml-auto mr-auto">
+                    <h1 class="expense-heading">Expense History</h1>
+                    <div class="d-flex flex-row justify-content-between mb-3">
+                        <h1 class="expense-title">Expense Title</h1>
+                        <h1 class="expense-title">Amount Spent</h1>
+                        <h1></h1>
+                        <h1></h1>
+                    </div>
+                    <ul id="expensesHistory" class="list">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

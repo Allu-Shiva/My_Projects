@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#product {
+    color: #323f4b;
+}
+
+#Recent {
+    color: #323f4b;
+}
+
+#delivery {
+    color: #323f4b;
+}
+
+.vr-logo {
+    height: 40px;
+    width: 50px;
+}
+
+.vr-bg-container {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.btn-viewmore {
+    background-color: #1a2137;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.vr-content {
+    color: white;
+}
+
+
+
+.1vr-card {
+    text-align: center;
+}
+
+.1card-image {
+    width: 70px;
+    /* padding:5px; */
+}
+
+.feature-heading1 {
+    font-weight: bold;
+    color: #1f2933;
+    font-family: 'Roboto';
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.vr-paragraph1 {
+    color: #7b8794;
+}
+
+.text-styling1 {
+    font-style: italic;
+    font-weight: bold;
+    color: #1f2933;
+}
+
+.vrkit-heading2 {
+    color: #323f4b;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.product-card2 {
+    text-align: center;
+}
+
+.product-image2 {
+    width: 200px;
+    height: 250px;
+}
+
+.ProductName2 {
+    color: #1f2933;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.productImage3 {
+    width: 100%;
+}
+
+.ProTitle3 {
+    color: #1f2933;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.ProDesc3 {
+    color: #7b8794;
+    font-size: 18px;
+}
+
+
+.Vr_contact4 {
+    background-color: #222b36;
+    color: white;
+    text-align: center;
+
+}
+
+.vrImage4 {
+    width: 250px;
+}
+
+.vr-heading4 {
+    font-size: 28px;
+    padding: 20px;
+}
+
+.btn-contact4 {
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+
+.blog-heading5 {
+    color: #1f2933;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding:10px; */
+}
+
+.card-image5 {
+    width: 100%;
+}
+
+.amazon5 {
+    color: #959ead;
+    font-size: 12px;
+}
+
+.card-text5 {
+    color: #323f4b;
+    font-weight: 500;
+}
+
+.readMore5 {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.btn-view5 {
+    background-color: #1754a1;
+    width: 140px;
+    height: 40px
+}
+
+.VrHeadset6 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-img.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.VrHeadset26 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.proHeading6 {
+    color: #1f2933;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.headsetHeading6 {
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.ruppee6 {
+    color: white;
+    font-size: 20px;
+}
+
+.btn-buy6 {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    border-width: 3px;
+}
+
+.btn-view6 {
+    background-color: #1754a1;
+    height: 60px;
+    width: 160px;
+}
+
+
+.vr-footer-section7 {
+    background-color: #19232d;
+}
+
+.vr-image7 {
+    width: 56px;
+    height: 40px;
+}
+
+.vr-icon-container7 {
+    width: 40px;
+    height: 40px;
+    background-color: #5a7184;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.vr-icon7 {
+    color: #959ead;
+    font-size: 20px;
+}
+
+.para7 {
+    color: #959ead;
+}
+
+.heading7 {
+    color: #959ead;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vr-footer-list7 {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.list7 {
+    color: #959ead;
+    font-weight: 400;
+}
+
+.icons7 {
+    font-size: 20px;
+}
+
+.hr-line7 {
+    border-color: #eef0f2;
+}
+
+.vr-endNote7 {
+    color: #959ead;
+    font-weight: bold;
+}

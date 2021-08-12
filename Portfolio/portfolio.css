@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar-jbox {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #4b6cc1;
+    width: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.frontend-home {
+    background-color: #191a1d;
+}
+
+a {
+    color: white !important;
+}
+
+.frontend-image {
+    width: 250px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.frontend-heading {
+    color: white;
+}
+
+.jenny {
+    color: #4b6cc1;
+}
+
+p {
+    color: #9aa5b1;
+    font-size: 20px;
+}
+
+.btn-contact {
+    background-color: #4b6cc1;
+    border: 0px;
+    height: 50px;
+    width: 140px;
+    margin-bottom: 80px;
+}
+
+
+
+.portfolio-first-container1 {
+    background-color: #323f4b;
+}
+
+.portfolio-second-container1 {
+    background-color: #1f2933;
+}
+
+.h1_1 {
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.h3_1 {
+    color: #cced00;
+    font-weight: bold;
+    padding-top: 50px;
+    font-family: 'Roboto';
+}
+
+.p_1 {
+    color: #9aa5b1;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.profile-pic1 {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.language-pic1 {
+    width: 100px;
+}
+
+.language-text1 {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.language-container1 {
+    background-color: #323f4b;
+    text-align: center;
+    padding-top: 10px;
+    /* width:90%; */
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+
+.Portfolio-website-projects-section2 {
+    background-color: #3e4c59;
+}
+
+.Portfolio-title2 {
+    color: #cced00;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.project_heading2 {
+    color: white;
+    font-weight: bold;
+}
+
+.project_para2 {
+    color: #9aa5b1;
+    font-family: 'Roboto';
+}
+
+.hotel-title2 {
+    font-weight: normal;
+}
+
+.hotel-discrp2 {
+    color: #9aa5b1;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.hotel-card2 {
+    background-color: #323f4b;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.hotel-image2 {
+    width: 100%;
+}
+
+.read-more2 {
+    color: #cced00;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 520;
+}
+
+
+.Portfolio-Website-Services-Section3 {
+    background-color: #52606d;
+}
+
+.service_heading3 {
+    color: #cced00;
+}
+
+.what-i-do3 {
+    color: white;
+    font-weight: bold;
+}
+
+.website-card3 {
+    background-color: #323f4b;
+    border-radius: 15px;
+}
+
+.website-logo3 {
+    width: 60px;
+}
+
+.website-title3 {
+    color: white;
+}
+
+.website-disciption3 {
+    color: #9aa5b1;
+    font-size: 20px;
+}
+
+
+
+.Portfolio-Website-Work-Done-Section4 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png');
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+.icon-container4 {
+    width: 100px;
+    /* margin-right: 10px; */
+}
+
+.icon4 {
+    color: white;
+}
+
+.hr-line4 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.Testimonial-container5 {
+    background-color: #1f2933;
+}
+
+.testi_h1_5 {
+    color: white;
+}
+
+.testi-heading5 {
+    color: #cced00;
+}
+
+.profile-container5 {
+    background-color: #323f4b;
+}
+
+.profile-pic-container1_5 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-1-img.png');
+    width: 110px;
+    height: 110px;
+    background-size: cover;
+    border-radius: 60px;
+    /* margin-left:50px; */
+}
+
+.profile-pic-container2_5 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-2-img.png');
+    width: 110px;
+    height: 110px;
+    background-size: cover;
+    border-radius: 60px;
+}
+
+.profile-pic-container3_5 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-3-img.png');
+    width: 110px;
+    height: 110px;
+    background-size: cover;
+    border-radius: 60px;
+}
+
+.testi_h4_5 {
+    color: white;
+    font-weight: normal;
+}
+
+.profile-pic {
+    width: 80px;
+}
+
+.description5 {
+    color: #9aa5b1;
+    font-size: 20px;
+}
+
+.arrow-button {
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.arrow5 {
+    background-color: transparent;
+    border-width: 0px;
+    color: white;
+}
+
+
+
+.Portfolio-Website-Footer-Section {
+    background-color: #0d2436;
+}
+
+.profile-pic6 {
+    width: 100px;
+    border-radius: 60px;
+}
+
+.footer_h3_6 {
+    color: #cced00;
+}
+
+.para_6 {
+    color: #5a7184;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icon6 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.detail-section6 {
+    color: #5a7184;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer6 {
+    background-color: #001c32;
+}
