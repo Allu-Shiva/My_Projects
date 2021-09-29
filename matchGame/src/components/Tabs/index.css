@@ -1,0 +1,18 @@
+.tabsBtn {
+  border: 0px;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+.highlightText {
+  color: #fec653;
+  font-size: 17px;
+}
+.highlightLine {
+  border-color: #fec653;
+}
+.hideLine {
+  border-color: transparent;
+}
